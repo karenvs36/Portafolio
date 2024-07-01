@@ -1,21 +1,23 @@
-'use client';
+"use client";
 import React from "react";
 import Container from "./Container";
 import Slider from "./Slider";
 
-
 const Proyectos = () => {
-    
   return (
-    <section
-    id="Proyectos">
+    <section id="Proyectos">
       <Container>
         <div>
           {/*title */}
-          <div className="text-white text-3xl justify-center flex">
-            <h1>Proyectos</h1>
+          <h1 className="text-white text-5xl text-center mb-4">Proyectos</h1>
+          <div className="flex items-center justify-center mb-4">
+            <img
+              src="/images/linea.png"
+              alt="linea"
+              className="max-w-full h-auto"
+            />
           </div>
-          <div >
+          <div>
             <Slider />
           </div>
         </div>
