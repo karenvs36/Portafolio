@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import Slider from "./Slider";
-
+//comment
 const Proyectos = () => {
   return (
     <section id="Proyectos" className="pb-12">
