@@ -3,14 +3,14 @@ import { RiNextjsFill } from "react-icons/ri";
 
 const Habilidades = () => {
   return (
-    <section id="habilidades">
+    <section id="habilidades" className="pb-12">
       <h1 className="text-white text-5xl text-center mb-4">Habilidades</h1>
       <div className="flex items-center justify-center mb-4">
         <img src="/images/linea.png" alt="linea" className="max-w-full h-auto" />
       </div>
       {/* Icons */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 items-center justify-center mx-56 mb-12">
-        <div className="flex flex-col items-center justify-center text-4xl text-white p-4 border border-[#1E293B] rounded-xl">
+        <div className="flex flex-col items-center justify-center text-4xl text-white p-4 border border-[#1E293B] rounded-xl ">
           <img src="/images/icons/html.svg" alt="HTML 5" className="h-12 w-12 mb-2" />
           HTML 5
         </div>
