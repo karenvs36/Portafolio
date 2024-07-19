@@ -5,7 +5,7 @@ import Slider from "./Slider";
 const Proyectos = () => {
   return (
     <section id="Proyectos" className="pb-12">
-      <Container>
+      <Container className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           {/*title */}
           <h1 className="text-white text-5xl text-center mb-4">Proyectos</h1>

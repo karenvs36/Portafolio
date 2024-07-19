@@ -5,7 +5,7 @@ const Curriculum = ({ downloadUrl, className, children }) => {
     if (downloadUrl) {
       const link = document.createElement("a");
       link.href = downloadUrl;
-      link.download = "curriculum.pdf"; // Default name for downloaded file
+      link.download = "Curriculum.pdf"; // Default name for downloaded file
       link.click();
     }
   };
